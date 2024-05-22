@@ -1,1 +1,2 @@
-cmd /k %cd%\install-script.bat"
+cd /d %~dp0
+cmd /k install-script.bat
