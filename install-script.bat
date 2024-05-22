@@ -1,5 +1,7 @@
 @echo off
 
+winget upgrade --all
+
 REM echo Installing Git Bash...
 winget install --id Git.Git -e
 
