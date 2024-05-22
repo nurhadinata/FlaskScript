@@ -1,0 +1,1 @@
+cmd /k %cd%\install-script.bat"
