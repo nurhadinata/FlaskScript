@@ -203,3 +203,5 @@ else
 
     echo "pyenv has been successfully installed."
 fi
+
+(exit)
