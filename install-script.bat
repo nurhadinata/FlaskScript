@@ -12,4 +12,7 @@ set "SCRIPT_PATH=%cd%\install-script.sh"
 set "SCRIPT_PATH_1=%cd%\install-1.sh"
 set "SCRIPT_PATH_2=%cd%\install-2.sh"
 start "" /wait "%GIT_BASH_PATH%" "%SCRIPT_PATH_1%"
+
+timeout /t 5 /nobreak
+
 start "" /wait "%GIT_BASH_PATH%" "%SCRIPT_PATH_2%"
