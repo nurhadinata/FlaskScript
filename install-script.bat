@@ -14,11 +14,14 @@ set "installer_url=https://github.com/git-for-windows/git/releases/download/v2.3
 set "installer_name=GitInstaller.exe"
 set "install_dir=%TEMP%\Git"
 
-mkdir "%install_dir%" 2>nul
-cd /d "%install_dir%"
-
-curl -L -o "%installer_name%" "%installer_url%"
-start /wait "" "%installer_name%" /SILENT /NORESTART
+if exist "%install_dir%\%installer_name%" (
+    echo Git installer found. Installing...
+    start /wait "" "%install_dir%\%installer_name%" /SILENT /NORESTART
+    echo Git has been installed successfully.
+) else (
+    echo Error: Git installer not found in the same directory as the script.
+    exit /b 1
+)
 
 echo Git has been installed successfully.
 
