@@ -1,7 +1,7 @@
 #!/bin/bash
 DB_USER="purchase"
 DB_PASSWORD="root"
-DB_NAME="purchase"
+DB_NAME="purchase_app"
 DB_HOST="localhost"
 PG_USER="postgres"
 PG_PASSWORD="12345678"
