@@ -2,15 +2,15 @@
 ### Mac OS
 1. Open Finder and navigate to the scripts directory.
 2. Right-click the folder in the **path bar** and choose **"New Terminal at Folder"**.
-> [!TIPS]
+> [!TIP]
 > If you don't see the path bar at the bottom of the Finder window :
->    - choose **View** > **Show Path Bar**
-4. Run the following command:
+> Choose **View** > **Show Path Bar**
+3. Run the following command:
    ```
    chmod +x mac-install-1.sh
    ./mac-install-1.sh
    ```
-5. Wait until the App is running.
+4. Wait until the App is running.
 
 ### Windows
 > [!IMPORTANT]
