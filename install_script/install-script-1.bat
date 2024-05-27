@@ -1,11 +1,11 @@
 @echo off
 
-REM winget upgrade --all
+winget upgrade --all
 
-REM echo Installing Git Bash...
-REM winget install --id Git.Git -e
+echo Installing Git Bash...
+winget install --id Git.Git -e
 
-REM winget install --id Google.Chrome -e
+winget install --id Google.Chrome -e
 
 set "GIT_BASH_PATH=C:\Program Files\Git\bin\bash.exe"
 set "SCRIPT_PATH_1=%cd%\install_script\install-sh-1.sh"
