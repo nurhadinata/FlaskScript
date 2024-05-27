@@ -32,4 +32,4 @@
    ```
 
 ### Windows
-1. dOUBLE-click on **'windows-run.bat'**.
+1. Double-click on **'windows-run.bat'**.
