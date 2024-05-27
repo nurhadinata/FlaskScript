@@ -32,4 +32,4 @@
    ```
 
 ### Windows
-1. Right-click on **'windows-run.bat'** and choose **"Run as Administrator"**.
+1. dOUBLE-click on **'windows-run.bat'**.
