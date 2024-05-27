@@ -1,11 +1,4 @@
 #!/bin/bash
-DB_USER="purchase"
-DB_PASSWORD="root"
-DB_NAME="purchase_app"
-DB_HOST="localhost"
-PG_USER="postgres"
-PG_PASSWORD="12345678"
-
 REPO_URL="https://github.com/alamkamajana/purchaseApp.git"
 DESTINATION_DIR="flaskApp"
 BRANCH_NAME="development"
