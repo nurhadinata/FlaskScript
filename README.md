@@ -24,10 +24,8 @@
 ## How to Run Tripper Purchase App:
 ### Mac OS
 1. Open Finder and navigate to the scripts directory.
-2. If you don't see the path bar at the bottom of the Finder window :
-   - choose **View** > **Show Path Bar**
-3. Right-click the folder in the path bar and choose **"New Terminal at Folder"**.
-4. Run the following command:
+2. Right-click the folder in the path bar and choose **"New Terminal at Folder"**.
+3. Run the following command:
    ```
    ./mac-run.sh
    ```
