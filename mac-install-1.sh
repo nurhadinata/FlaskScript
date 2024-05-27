@@ -6,9 +6,17 @@ DB_HOST="localhost"
 PG_USER="postgres"
 PG_PASSWORD="12345678"
 
-REPO_URL="https://github.com/alamkamajana/purchaseApp.git"
-DESTINATION_DIR="flaskApp"
-BRANCH_NAME="development"
+echo "Checking internet connection..."
+
+ping -c 1 google.com >/dev/null 2>&1
+
+if [ $? -eq 0 ]; then
+    echo "Internet connection is available."
+else
+    echo "No internet connection."
+    read -p "Press Enter to continue..."
+    exit 1
+fi
 
 
 check_os() {
