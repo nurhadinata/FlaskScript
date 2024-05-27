@@ -2,7 +2,7 @@
 ### Mac OS
 1. Open Finder and navigate to the scripts directory.
 2. Right-click the folder in the **path bar** and choose **"New Terminal at Folder"**.
-> [!TIP]
+> [!NOTE]
 > If you don't see the path bar at the bottom of the Finder window : <br/>
 > Choose **View** > **Show Path Bar**
 3. Run the following command:
