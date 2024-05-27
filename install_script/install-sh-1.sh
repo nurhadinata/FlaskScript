@@ -6,11 +6,6 @@ DB_HOST="localhost"
 PG_USER="postgres"
 PG_PASSWORD="12345678"
 
-REPO_URL="https://github.com/alamkamajana/purchaseApp.git"
-DESTINATION_DIR="flaskApp"
-BRANCH_NAME="development"
-
-
 check_os() {
     # Determine the OS type
     OS_TYPE=$(uname)
