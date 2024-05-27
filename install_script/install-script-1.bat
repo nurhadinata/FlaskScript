@@ -5,6 +5,7 @@ winget upgrade --all
 echo Installing Git Bash...
 winget install --id Git.Git -e
 
+echo Installing Google Chrome...
 winget install --id Google.Chrome -e
 
 set "GIT_BASH_PATH=C:\Program Files\Git\bin\bash.exe"
