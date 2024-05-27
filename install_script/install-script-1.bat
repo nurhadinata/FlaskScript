@@ -5,8 +5,14 @@ winget upgrade --all
 echo Installing Git Bash...
 winget install --id Git.Git -e
 
-echo Installing Google Chrome...
-winget install --id Google.Chrome -e
+if %ERRORLEVEL% equ 0 (
+  echo Git installation succesful.
+  echo Continuing Purchase App installation...
+) else (
+  echo Installation failed with error code %ERRORLEVEL%.
+  pause
+  exit /b %ERRORLEVEL%
+)
 
 set "GIT_BASH_PATH=C:\Program Files\Git\bin\bash.exe"
 set "SCRIPT_PATH_1=%cd%\install_script\install-sh-1.sh"
