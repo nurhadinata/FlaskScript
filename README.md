@@ -20,7 +20,6 @@
 4. Right-click on **'windows-install-2.bat'** and choose **"Run as Administrator"**.
 5. Wait until the App is running.
 
-
 ## How to Run Tripper Purchase App:
 ### MAC OS
 1. Open Finder and navigate to the scripts directory.
