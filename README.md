@@ -4,7 +4,7 @@
 2. Right-click the folder in the **path bar** and choose **"New Terminal at Folder"**.
 > [!TIP]
 > If you don't see the path bar at the bottom of the Finder window :
-> Choose **View** > **Show Path Bar**
+> - Choose **View** > **Show Path Bar**
 3. Run the following command:
    ```
    chmod +x mac-install-1.sh
