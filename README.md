@@ -1,5 +1,5 @@
 ## How to Install Tripper Purchase App:
-### MAC OS
+### Mac OS
 1. Open Finder and navigate to the scripts directory.
 2. If you don't see the path bar at the bottom of the Finder window :
    - choose **View** > **Show Path Bar**
@@ -21,7 +21,7 @@
 5. Wait until the App is running.
 
 ## How to Run Tripper Purchase App:
-### MAC OS
+### Mac OS
 1. Open Finder and navigate to the scripts directory.
 2. If you don't see the path bar at the bottom of the Finder window :
    - choose **View** > **Show Path Bar**
