@@ -5,7 +5,7 @@ REM winget upgrade --all
 echo Installing Git Bash...
 winget install --id Git.Git -e
 
-if not %ERRORLEVEL% equ 0 GOTO GITFAILED
+REM if not %ERRORLEVEL% equ 0 GOTO GITFAILED
 
 echo Git installation succesful.
 echo Continuing Purchase App installation...
